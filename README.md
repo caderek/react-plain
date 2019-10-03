@@ -41,6 +41,11 @@ yarn add react-plain
 ## Quick example
 
 ```js
+/**
+ * You can also use default import, for example:
+ *   import tags from 'react-plain
+ *   import t from 'react-plain'
+ */
 import { __, a, div, h1, p } from 'react-plain'
 
 const Hello = () => {
