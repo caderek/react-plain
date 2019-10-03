@@ -18,7 +18,7 @@
 
 ## Overview
 
-This package contains utility functions for creating React html elements, without using JSX. It wraps `React.createElement` in dedicated functions for each html tag, so you have shorter syntax and IDE suggestions.
+This package contains utility functions for creating React HTML elements, without using JSX. It wraps `React.createElement` in dedicated functions for each html tag, so you have shorter syntax and IDE suggestions.
 
 <a id='installation'></a>
 
@@ -44,7 +44,7 @@ yarn add react-plain
 import { __, a, div, h1, p } from 'react-plain'
 
 const Hello = () => {
-  return h1(__, 'Hello React without JSX!'),
+  return h1(__, 'Hello React without JSX!')
 }
 
 const App = () => {
@@ -58,6 +58,8 @@ const App = () => {
   )
 }
 ```
+
+Live example: https://stackblitz.com/edit/react-plain-example
 
 <a id='api'></a>
 
