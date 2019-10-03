@@ -3,6 +3,8 @@ import wrapElement from './wrapElement'
 
 type Tag = (props: object, ...children: ReactChild[]) => ReactNode
 
+const __ = null
+
 const a: Tag = wrapElement('a')
 const abbr: Tag = wrapElement('abbr')
 const address: Tag = wrapElement('address')
@@ -121,10 +123,11 @@ const video: Tag = wrapElement('video')
 const wbr: Tag = wrapElement('wbr')
 
 type Tags = {
-  [key: string]: Tag
+  [key: string]: Tag | null
 }
 
 const tags: Tags = {
+  __,
   a,
   abbr,
   address,
@@ -244,6 +247,7 @@ const tags: Tags = {
 }
 
 export {
+  __,
   a,
   abbr,
   address,
