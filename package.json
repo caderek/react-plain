@@ -10,8 +10,11 @@
     "react",
     "html",
     "tags",
+    "elements",
+    "create element",
     "plain",
     "no jsx",
+    "without jsx",
     "components"
   ],
   "author": "Maciej Cąderek",
