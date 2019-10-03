@@ -48,9 +48,10 @@ const Hello = () => {
 }
 
 const App = () => {
-  return div(
-    { class: 'example' },
+  return div({ class: 'example' },
     Hello(),
+    p(__, 'Simply use html tags as functions!'),
+    p(__, 'You can use __ instead of null'),
     p(__,
       'Check out the project repo: ',
       a({ href: '//github.com/caderek/react-plain' }, 'click'),
