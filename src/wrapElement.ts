@@ -1,8 +1,8 @@
-import * as React from 'react'
+import { createElement } from 'react'
 
 const wrapElement = (name) => {
   return (options, ...children) => {
-    return React.createElement(name, options, ...children)
+    return createElement(name, options, ...children)
   }
 }
 
