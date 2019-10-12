@@ -123,7 +123,8 @@ const video: Tag = wrapElement('video')
 const wbr: Tag = wrapElement('wbr')
 
 type Tags = {
-  [key: string]: Tag | null
+  __: null
+  [key: string]: Tag
 }
 
 const tags: Tags = {
